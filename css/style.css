@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 100vh; /* Высота контейнера */
+}
+
+.responsive-image {
+  max-width: 100%; /* Ограничение ширины изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border-radius: 8px; /* Скругление углов изображения */
+}
+.page-wrapper{
+  max-width: 390px;
+  margin: 100px auto;
+  border-radius: 19px;
+  overflow: hidden;
+
+
+box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.25);
+background:#fff;
+}
+.header {
+  background-image: url("../image/image.png");
+  color:white;
+  position: relative;
+  height: 282px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 13px;
+    padding-right: 13px;
+
+
+}
+
+.content{
+padding: 29px;
+}
+
+.heading {
+font-style: italic;
+}
+.heading-text, .heading {
+background-color:
+rgba(105, 182, 122, 0.83);
+padding: 10px;
+margin: 10px;
+}
+.avatar {
+position: absolute;
+right: 13px;
+  bottom: -57px;
+}
+
+.name-text, .name {
+  margin: 10px 0 ;
+}
+.social {
+  /* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 13px;
+
+}
+
+.icon {
+  width: 95px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon.fb {
+background-color: rgb(106, 128, 201);
+display: block;
+background-image: url("../image/fb.svg");
+}
+.icon.tw {
+  background-color:rgb(115, 213, 235);
+  display: block;
+background-image: url("../image/tw.svg")
+}
+
+.info{
+  margin-bottom: 2em;
+}
