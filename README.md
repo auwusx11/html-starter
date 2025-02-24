@@ -1,2 +1,2 @@
-# html-starter 
+# TkaniProsto
 ### Автор: Кузнецова Оля
